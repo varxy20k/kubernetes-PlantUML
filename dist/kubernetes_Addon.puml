@@ -1,4 +1,5 @@
 KubernetesAddonEntityColoring(KubernetesAddon)
+
 !procedure KubernetesAddon(e_alias, e_label, $techn="helm", $sprite="helm_2")
 KubernetesAddonEntity(e_alias, e_label, $techn, HELM_SYMBOL_COLOR, $sprite, KubernetesAddon)
 !endprocedure
