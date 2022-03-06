@@ -15,13 +15,13 @@ KubernetesEntity(e_alias, e_label, $techn, $descr, KUBERNETES_SYMBOL_COLOR, $spr
 HelmEntityColoring(HelmChartEntity)
 
 !procedure HelmChart(e_alias, e_label, $techn, $sprite="helm_2")
-HelmChartEntity(e_alias, e_label, $techn, KUBERNETES_SYMBOL_COLOR, $sprite, KubernetesAddon)
+HelmChartEntity(e_alias, e_label, $techn, HELM_SYMBOL_COLOR, $sprite, HelmChart)
 !endprocedure
 
 !procedure HelmChart(e_alias, e_label, $techn, $descr="", $sprite="helm_2")
-HelmChartEntity(e_alias, e_label, $techn, $descr, KUBERNETES_SYMBOL_COLOR, $sprite, KubernetesAddon)
+HelmChartEntity(e_alias, e_label, $techn, $descr, HELM_SYMBOL_COLOR, $sprite, HelmChart)
 !endprocedure
 
 !procedure HelmChart(e_alias, e_label, $techn, $descr="", $sprite1="helm_2", $sprite2="helm_2")
-HelmChartEntity(e_alias, e_label, $techn, $descr, KUBERNETES_SYMBOL_COLOR, $sprite1, $sprite2, KubernetesAddon)
+HelmChartEntity(e_alias, e_label, $techn, $descr, HELM_SYMBOL_COLOR, $sprite1, $sprite2, HelmChart)
 !endprocedure
