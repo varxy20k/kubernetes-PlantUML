@@ -36,7 +36,7 @@ skinparam rectangle<<e_stereo>> {
 }
 !enddefinelong
 
-!definelong KubernetesAddonEntityColoring(e_stereo)
+!definelong HelmEntityColoring(e_stereo)
 skinparam rectangle<<e_stereo>> {
     BackgroundColor HELM_BG_COLOR
     BorderColor HELM_BORDER_COLOR
@@ -59,14 +59,14 @@ rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZ
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !enddefinelong
 
-!procedure KubernetesAddonEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
+!procedure HelmChartEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<e_stereo>> as e_alias
 !endprocedure
 
-!procedure KubernetesAddonEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
+!procedure HelmChartEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !endprocedure
 
-!procedure KubernetesAddonEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite_1, e_sprite_2, e_stereo)
+!procedure HelmChartEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite_1, e_sprite_2, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite_1><$e_sprite_2></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !endprocedure
