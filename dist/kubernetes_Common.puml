@@ -37,7 +37,7 @@ skinparam rectangle<<e_stereo>> {
 !enddefinelong
 
 !definelong KubernetesAddonEntityColoring(e_stereo)
-skinparam rectancle<<e_stereo>> {
+skinparam rectangle<<e_stereo>> {
     BackgroundColor HELM_BG_COLOR
     BorderColor HELM_BORDER_COLOR
 }
